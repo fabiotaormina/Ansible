@@ -2,7 +2,7 @@
 # tasks file for nodejs
 
 - name: Installing node and npm
-  dnf:
+  yum:
     name:
     - nodejs
     - npm
