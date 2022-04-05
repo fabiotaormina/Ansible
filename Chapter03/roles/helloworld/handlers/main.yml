@@ -1,7 +1,7 @@
 ---
-# handlers file for helloworld
+# handlers file for HelloWorld
 
-- name: restart helloworld
+- name: Restart HelloWorld node.js service
   service:
     name: helloworld
     state: restarted
