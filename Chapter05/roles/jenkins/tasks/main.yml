@@ -23,8 +23,7 @@
 
 - name: Install Jenkins
   yum:
-    name: jenkins-2.99
-    disable_gpg_check: yes
+    name: jenkins
     enablerepo: jenkins
     state: present
 
