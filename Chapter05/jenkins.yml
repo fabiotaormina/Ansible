@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 - hosts: "{{ target | default('localhost') }}"
   become: yes
@@ -5,3 +6,11 @@
     - jenkins
     - nodejs
 
+=======
+--- 
+- hosts: "{{ target | default('localhost') }}" 
+  become: yes 
+  roles: 
+    - jenkins 
+    - nodejs 
+>>>>>>> 49b46f715cd7d158d7bd60c2a65050fc8996d140
