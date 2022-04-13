@@ -1,9 +1,6 @@
 ---
 # tasks file for jenkins
-<<<<<<< HEAD
 
-=======
->>>>>>> 49b46f715cd7d158d7bd60c2a65050fc8996d140
 - name: Removing old version of JAVA from Amazon Linux
   yum:
     name: java-1.7.0-openjdk
@@ -11,13 +8,9 @@
 
 - name: Install specific supported version of JAVA
   yum:
-<<<<<<< HEAD
     name:
     - fontconfig
     - java-1.8.0-openjdk
-=======
-    name: java-11-openjdk
->>>>>>> 49b46f715cd7d158d7bd60c2a65050fc8996d140
     state: present
 
 - name: Add Jenkins repository
@@ -30,11 +23,7 @@
 
 - name: Install Jenkins
   yum:
-<<<<<<< HEAD
     name: jenkins
-=======
-    name: jenkins-2.164
->>>>>>> 49b46f715cd7d158d7bd60c2a65050fc8996d140
     enablerepo: jenkins
     state: present
 
@@ -43,7 +32,4 @@
     name: jenkins
     enabled: yes
     state: started
-<<<<<<< HEAD
 
-=======
->>>>>>> 49b46f715cd7d158d7bd60c2a65050fc8996d140
