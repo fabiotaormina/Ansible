@@ -20,7 +20,7 @@ options:
     description:
       - Enable the agent
      choices: [ "yes", "no" ]
-     required: true
+     required: yes
 '''
 
 try:
